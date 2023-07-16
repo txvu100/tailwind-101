@@ -28,6 +28,27 @@
             <a href=""
                 class="hidden md:block p-3 px-6 pt-2 text-white bg-red-400 rounded-full hover:bg-red-500 baseline">Get
                 Started</a>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#" class="hover:text-red-400">Home</a>
+                <a href="#" class="hover:text-red-400">About</a>
+                <a href="#" class="hover:text-red-400">Contact</a>
+                <a href="#" class="hover:text-red-400">Login</a>
+                <a href="#" class="hover:text-red-400">Register</a>
+            </div>
+        </div>
+        </div>
     </nav>
 
     <!-- Hero Section-->
@@ -321,6 +342,8 @@
         </form>
 
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
